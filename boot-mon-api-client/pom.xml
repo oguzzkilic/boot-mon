@@ -3,14 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.iyzico</groupId>
     <artifactId>boot-mon-api-client</artifactId>
     <version>1-SNAPSHOT</version>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>${spring-boot-starter-parent.version}</version>
+        <groupId>com.iyzico</groupId>
+        <artifactId>boot-mon</artifactId>
+        <version>1-SNAPSHOT</version>
     </parent>
 
     <properties>
