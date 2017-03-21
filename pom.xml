@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-       <module>boot-mon-api</module>
-       <module>boot-mon-api-client</module>
+       <module>boot-mon-server</module>
+       <module>boot-mon-client</module>
     </modules>
 </project>
