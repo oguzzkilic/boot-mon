@@ -1,5 +1,6 @@
 package com.iyzico.bootmon.server.registry;
 
+import org.springframework.hateoas.Link;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,9 +18,9 @@ public class BootmonClientController {
 
     @PostMapping
     public HttpEntity<BootmonClient> create(@RequestBody BootmonClient bootmonClient) {
-
         bootmonClient.add(linkTo(methodOn(BootmonClientController.class)
                 .create(bootmonClient))
+                .slash(bootmonClient.getId())
                 .withSelfRel());
 
         return new ResponseEntity<BootmonClient>(bootmonClient, HttpStatus.OK);
