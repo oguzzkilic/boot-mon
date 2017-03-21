@@ -1,0 +1,26 @@
+== boot-mon
+Boot Mon is a lightweight monitoring web application for Spring Boot applications. You can monitor Spring Boot Actuator Metrics real time.
+
+== Reporting Issues
+Boot Mon uses GitHub's integrated issue tracking system to record bugs and feature
+requests. If you want to raise an issue, please follow the recommendations below:
+
+* Before you log a bug, please https://github.com/iyzico/boot-mon/search?type=Issues[search the issue tracker]
+  to see if someone has already reported the problem.
+* If the issue doesn't already exist, https://github.com/iyzico/boot-mon/issues/new[create a new issue].
+* Please provide as much information as possible with the issue report, we like to know
+  the version of Boot Mon that you are using, as well as your Operating System and
+  JVM version.
+* If you need to paste code, or include a stack trace use Markdown +++```+++ escapes
+  before and after your text.
+
+== Building from Source
+You don't need to build from source to use Spring Boot (binaries in
+http://repo.spring.io[repo.spring.io]), but if you want to try out the latest and
+greatest, Spring Boot can be easily built with the
+https://github.com/takari/maven-wrapper[maven wrapper]. You also need JDK 1.8 (although
+Boot applications can run on Java 1.6).
+
+== License
+Boot Mon is Open Source software released under the
+http://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license].
