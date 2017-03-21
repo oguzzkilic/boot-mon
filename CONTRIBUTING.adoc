@@ -1,6 +1,6 @@
 = How to contribute to Boot Mon
 
-Not sure what a pull request is, or how to submit one? Take a look at GitHub's [help documentation](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/) first.
+Not sure what a pull request is, or how to submit one? Take a look at GitHub's https://help.github.com/categories/collaborating-with-issues-and-pull-requests/[help documentation] first.
 
 == Code of Conduct
 This project adheres to the Contributor Covenant link:CODE_OF_CONDUCT.adoc[code of
