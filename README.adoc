@@ -1,6 +1,6 @@
 == boot-mon
 
-image::https://travis-ci.org/yyenigun/boot-mon.svg?branch=master[Build Status, link="https://travis-ci.org/yyenigun/boot-mon"]
+image::https://travis-ci.org/iyzico/boot-mon.svg?branch=master[Build Status, link="https://travis-ci.org/iyzico/boot-mon"]
 
 Boot Mon is a lightweight monitoring web application for Spring Boot applications. You can monitor Spring Boot Actuator Metrics real time.
 
